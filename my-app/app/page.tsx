@@ -1,11 +1,24 @@
 import Head from './components/header'
-
+import Foot from './components/footer'
 export default function Page(){
     return <>
-    <link rel="stylesheet" href="https://use.typekit.net/btd4hwc.css"></link>
-    <link rel="stylesheet" href="globals.module.css"></link>
         <Head></Head>
-        <h2>This is the home page</h2>
+        <h1>This is the home page</h1>
+        <div className="section">
+            {/* The first thing the user sees when visiting the site - needs to be good */}
+            {/* Include some fancy visual / capturing title here with slogan */}
+        </div>
+
+        <div className="section2">
+            {/* Include some 'trusted by the best' slide */}
+        </div>
+
+        <div className="section3">
+            {/* Banner-module that includes our 3 services */}
+        </div>
+
+        <Foot></Foot>
+
     </>
 
 }

@@ -2,9 +2,25 @@ import Link from 'next/link'
 
 export default function Head(){
     return <>
-    <Link href="/"><h1>Flourishing Fibers</h1></Link>
-    <Link href="/solutions">Solutions</Link>
-    <Link href="/philosophy">Philosophy</Link>
-    <Link href="/contact">Contact</Link>
+    <div className="Logo / title">
+    <h1>
+    <Link href="/">Flourishing Fibers</Link>
+    </h1>
+    </div>
+    
+    <nav>
+        <li>
+        <Link href="/">Home</Link>
+        </li>
+        <li>
+        <Link href="/solutions">Solutions</Link>
+        </li>
+        <li>
+        <Link href="/philosophy">Philosophy</Link>
+        </li>
+        <li>
+        <Link href="/contact">Contact</Link>
+        </li>
+    </nav>
     </>
 }

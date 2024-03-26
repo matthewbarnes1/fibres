@@ -1,10 +1,37 @@
+:root{
+    /* Define the color palette and other re-usable variables */
+    --primary-color: #588157;
+    --secondary-color: #A4B28B;
+    --light-grey: #CFD4DA; 
+    --dark-grey: #495057;
+    --light-accent: #DBD7CD;
+    --dark-accent: #212529;
+}
+
 *{
-font-family: "new-spirit", serif;
+margin:0;
+font-family: "", serif;
 font-weight: 400;
 font-style: normal;
 }
 
+body{ 
+    background-color: var(--light-accent);
+}
 
+nav{
+    background-color: var(--primary-color);
+    padding: 10px;
+    margin-bottom: 20px;
+    float:right;
+
+}
+
+li {
+    display: inline-block;
+    margin-right: 15px; /* add spacing between items */
+  }
+  
 
 a{
     text-decoration: none;
@@ -13,6 +40,6 @@ a{
 }
 
 a:hover{
-    color:green;
+color: var(--light-accent);
 }
 
